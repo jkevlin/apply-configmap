@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: some-configmap
+type: Opaque
+data:
+  createdDate: "2021/05/18 T01"
