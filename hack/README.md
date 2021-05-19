@@ -3,7 +3,7 @@
 ## In a terminal window
 
 ```bash
-minikube start --driver=docker
+minikube start
 
 kubectl apply -f shell-demo.yaml
 # wait for pod to be ready
