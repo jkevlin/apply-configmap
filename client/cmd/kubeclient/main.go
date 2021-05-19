@@ -35,7 +35,7 @@ func main() {
 	go func() {
 		defer close(reqCh)
 
-		err = c.ApplySecret(namespace, yamlFilename)
+		err = c.ApplyConfigMap(namespace, yamlFilename)
 		if err != nil {
 			panic(err)
 		}
